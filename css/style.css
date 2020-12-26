@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    background-color: black;
+}
+
+#banner{
+    
+    width: 100%;
+    height: 100%;
+
+}
+.top-banner {
+    position: relative;
+    text-align: center;
+    color: cyan;
+  }
+  .sub-nav{
+      position: absolute;
+      top: 2%;
+      right: 1%;
+      
+  }
+  a:link{
+      color: cyan;
+  }
+  a:visited{
+      color: cyan;
+  }
+  ul{
+      list-style: none;
+      float: right;
+
+  }
+  ul li {
+      float: left;
+      padding-left: 6em;
+  }
+  h1{
+      position: absolute;
+      top: 2%;
+      left: 6%;
+  }
+  .my-intro{
+      position: absolute;
+      top: 45%;
+      left: 35%;
+  }
+  
+  #pf-pic{
+      border: 2px dashed red;
+      border-radius: 50%;
+
+  }
+
+  .banner-about{
+    display: flex;
+}
+
+.about-para{
+  color: cyan;
+  float: right;
+  margin-top: 4%;
+  margin-left: 6%;
+  }
+  #about-me{
+      line-height: 2em;
+      font-size: 2em;
+      line-break: auto;
+  }
+.experience-banner{
+    color: cyan;
+    position: relative;
+    margin-top: 3%;
+
+}
+#company-list{
+    margin: 5%;
+    list-style: none;
+
+}
+#company-list li{
+    margin-top: 1em;
+    float: left;
+    padding: 1em;
+}
+#company-list a{
+    color: darkturquoise;
+}
+.exp-para {
+line-break: strict;
+margin-top: 5%;
+line-height: 1.5em;
+font-size: 1.5em;
+}
+.exp-para p{
+    margin-top: 7%;
+}
+.contactus-footer{
+    position: relative;
+    margin-top: 7%;
+    display: flexbox;
+}
+.contact-me{
+    color: cyan;
+    padding: 5%;
+   padding-left: 40%;
+}
+
+.contact-me h1{
+    padding-left: 35%;
+}
+.sub-social
+{   
+    float: left;
+    color: cyan;
+    padding-left: 35%;
+}
+.sub-social h2{
+    text-align: center;
+}
+.sub-social ul{
+    left: 25%;
+    position: absolute;
+}
